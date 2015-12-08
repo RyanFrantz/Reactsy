@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:key="etsy_ldap_id"
+                        android:title="@string/etsy_ldap_id_title"
+                        android:defaultValue=""
+                        android:summary="@string/etsy_ldap_id_summary" />
+
+</PreferenceScreen>

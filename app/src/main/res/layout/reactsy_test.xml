@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reactsy_test"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:text="@string/reactsy_test"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/response_instructions"
+        android:text="@string/finger_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <View
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout android:id="@+id/test_area"
+                 android:layout_width="match_parent"
+                 android:layout_height="256dp">
+
+        <Button
+            android:id="@+id/ready_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ready_button"/>
+
+        <ImageView
+            android:id="@+id/test_image"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:layout_gravity="center"
+            android:src="@drawable/checkerboard"
+            android:layout_below="@id/response_instructions"
+            android:visibility="gone"/>
+
+        <LinearLayout android:id="@+id/test_complete"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:visibility="gone">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_complete"
+                android:textSize="28sp"
+                android:gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <Button
+                android:id="@+id/view_results_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/view_results_button"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+</LinearLayout>

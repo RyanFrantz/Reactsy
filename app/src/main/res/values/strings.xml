@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reactsy</string>
+    <string name="etsy_ldap_id_title">Etsy LDAP id</string>
+    <string name="etsy_ldap_id_summary">Used to identify the test taker.</string>
+    <string name="reactsy_test">Reactsy Test</string>
+    <string name="reactsy_test_results">Reactsy Test Results</string>
+    <string name="action_settings">Settings</string>
+    <string name="ready_button">Click When Ready</string>
+    <string name="view_results_button">View Results</string>
+    <string name="view_parameters">View Parameters</string>
+    <string name="finger_down">For this test, hover your thumb over the screen and press down whenever the image appears.</string>
+    <string name="finger_up">For this test, rest your thumb on the screen and lift up whenever the image appears.</string>
+    <string name="no_test_scheduled">No test is scheduled.</string>
+    <string name="test_complete">All done! Way to go!</string>
+    <string name="too_fast">Please wait for the image!</string>
+    <string name="too_slow">That\'s ok; try again!</string>
+    <string name="please_dont_pause">You paused; now we have to start again :(</string>
+    <string name="num_trials_label">Trials (valid/total = %):</string>
+    <string name="mean_label">Mean (valid trials):</string>
+    <string name="variance_label">Variance (valid trials):</string>
+    <string name="std_dev_label">Std deviation (valid trials):</string>
+    <string name="test_parameters_title">Test Parameters</string>
+    <string name="test_duration_label">Test duration:</string>
+    <string name="min_delay_label">Minimum wait delay:</string>
+    <string name="max_delay_label">Maximum wait delay:</string>
+    <string name="too_soon_label">Too soon response:</string>
+    <string name="too_late_label">Too late response:</string>
+    <string name="recovery_delay_label">Recovery after problem:</string>
+    <string name="min_valid_trials_pct_label">Minimum valid trials percentage:</string>
+    <string name="test_mechanism_label">Trial mechanism:</string>
+    <string name="time_for_test_title">Reactsy time!</string>
+    <string name="time_for_test">Please play with Reactsy!</string>
+    <string name="reactsy_configure">Configure Reactsy</string>
+    <string name="create_notification">Create Notification</string>
+    <string name="run_reactsy">Run Reactsy</string>
+    <string name="finger_down_mechanism">Finger Down</string>
+    <string name="finger_up_mechanism">Finger Up</string>
+
+</resources>

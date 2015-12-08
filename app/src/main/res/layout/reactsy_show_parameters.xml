@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/test_duration_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/test_duration_label"
+        android:layout_alignStart="@+id/min_valid_trials_pct_label"
+        android:layout_alignEnd="@id/min_valid_trials_pct_label"/>
+
+    <TextView
+        android:id="@+id/min_delay_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/min_delay_label"
+        android:layout_alignStart="@+id/min_valid_trials_pct_label"
+        android:layout_alignEnd="@id/min_valid_trials_pct_label"
+        android:layout_below="@id/test_duration_label"/>
+
+    <TextView
+        android:id="@+id/max_delay_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/max_delay_label"
+        android:layout_alignStart="@+id/min_valid_trials_pct_label"
+        android:layout_alignEnd="@id/min_valid_trials_pct_label"
+        android:layout_below="@id/min_delay_label"/>
+
+    <TextView
+        android:id="@+id/too_soon_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/too_soon_label"
+        android:layout_alignStart="@+id/min_valid_trials_pct_label"
+        android:layout_alignEnd="@id/min_valid_trials_pct_label"
+        android:layout_below="@id/max_delay_label"/>
+
+    <TextView
+        android:id="@+id/too_late_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/too_late_label"
+        android:layout_alignStart="@+id/min_valid_trials_pct_label"
+        android:layout_alignEnd="@id/min_valid_trials_pct_label"
+        android:layout_below="@id/too_soon_label"/>
+
+    <TextView
+        android:id="@+id/recovery_delay_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/recovery_delay_label"
+        android:layout_alignStart="@+id/min_valid_trials_pct_label"
+        android:layout_alignEnd="@id/min_valid_trials_pct_label"
+        android:layout_below="@id/too_late_label"/>
+
+    <TextView
+        android:id="@+id/min_valid_trials_pct_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/min_valid_trials_pct_label"
+        android:layout_alignStart="@+id/min_valid_trials_pct_label"
+        android:layout_alignEnd="@id/min_valid_trials_pct_label"
+        android:layout_below="@id/recovery_delay_label"/>
+
+    <TextView
+        android:id="@+id/test_mechanism_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="@string/test_mechanism_label"
+        android:layout_alignStart="@+id/min_valid_trials_pct_label"
+        android:layout_alignEnd="@id/min_valid_trials_pct_label"
+        android:layout_below="@id/min_valid_trials_pct_label"/>
+
+    <TextView
+        android:id="@+id/test_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Hello"
+        android:layout_alignTop="@id/test_duration_label"
+        android:layout_toRightOf="@id/test_duration_label" />
+
+    <TextView
+        android:id="@+id/min_delay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Hello"
+        android:layout_alignTop="@id/min_delay_label"
+        android:layout_toRightOf="@id/min_delay_label" />
+
+    <TextView
+        android:id="@+id/max_delay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Hello"
+        android:layout_alignTop="@id/max_delay_label"
+        android:layout_toRightOf="@id/max_delay_label" />
+
+    <TextView
+        android:id="@+id/too_soon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Hello"
+        android:layout_alignTop="@id/too_soon_label"
+        android:layout_toRightOf="@id/too_soon_label" />
+
+    <TextView
+        android:id="@+id/too_late"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Hello"
+        android:layout_alignTop="@id/too_late_label"
+        android:layout_toRightOf="@id/too_late_label" />
+
+    <TextView
+        android:id="@+id/recovery_delay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Hello"
+        android:layout_alignTop="@id/recovery_delay_label"
+        android:layout_toRightOf="@id/recovery_delay_label" />
+
+    <TextView
+        android:id="@+id/min_valid_trials_pct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Hello"
+        android:layout_alignTop="@id/min_valid_trials_pct_label"
+        android:layout_toRightOf="@id/min_valid_trials_pct_label" />
+
+    <TextView
+        android:id="@+id/test_mechanism"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Hello"
+        android:layout_alignTop="@id/test_mechanism_label"
+        android:layout_toRightOf="@id/test_mechanism_label" />
+
+</RelativeLayout>
